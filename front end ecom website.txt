@@ -1,0 +1,111 @@
+flow of program:
+
+1. Home page
+
+//feature box
+
+setting properties for one box
+
+then applying it to other boxes
+
+then changing text color beneath every box in feature box
+
+
+
+//featured products products 
+first make parent div 
+then div containing image and another text div
+use proper icons for start and shopping icon(not working)
+
+
+after that copy paste the pro container 7 times
+and change the display of parent contrainer tro flex
+
+
+
+
+
+
+
+
+
+
+after that sales bannereveryone 
+
+then another product section winter waala  where we will be using the 
+same class as prior product section so as to reuse the css code
+
+
+
+
+
+after some more banner
+
+
+
+then newslatter section Jahan oe email dena padta hai dudes
+
+
+
+then comes the footer section
+there are multiple division having flex property and nested flex propery also(incase iamges)
+
+
+
+finally it's time to make the website responsive 
+inspect the home page and check different views
+
+
+
+
+
+
+
+
+
+2.Shop Page
+
+- First copy all the content of index
+
+- then use appropriate line on shop
+
+banner time
+
+
+after merge two product sections
+
+and styling accordingly
+
+
+
+then create new html file for product dscription sproduct
+
+there create divisions accordingly and make slider working using js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. It's time for blog page baby
+
+
+
+
+
+4. some more page 
+
+
+
+5. Contact Page
+
+
+ 

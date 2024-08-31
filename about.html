@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech2etc Ecommerce Tutorial</title>
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" /> -->
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" ></script> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- What is section tag? (logo + menu )-->
+    <section id="header">
+        <!-- # -- means path file attached-->
+        <a href="#"><img src="./img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <!-- for cross button in hamberger -->
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <i id="bar" class="fa fa-outdent"></i>
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+
+    </section>
+
+    <!-- cover image along with some text -->
+    <section id="page-header" class="about-header">
+        <h2>KnowUs</h2>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </section>
+
+    <!-- about head where image and text are there  -->
+    <section id="about-head" class="section-p1">
+        <img src="img/about/a6.jpg" alt="">
+        <div>
+            <h2>Who We are..?</h2>
+            <p>We are a team of passionate individuals dedicated to delivering high-quality products and exceptional customer experiences. With a commitment to innovation and excellence, we strive to create solutions that not only meet but exceed expectations. Our values are rooted in integrity, collaboration, and a relentless pursuit of improvement, ensuring that we stay ahead in a rapidly changing world. We believe in the power of community and the importance of building strong, lasting relationships with our customers and partners. At the core of everything we do is a simple promise: to provide value and make a positive impact on the lives of those we serve.</p>
+                
+                <!-- learn about below tag  -->
+                <abbr title="" class="title">
+                    Create stunning images with as much or as little control as you like
+                    thank to a choice of Bais and Crative modes.
+                </abbr>
+
+
+                <br><br>
+
+                <!-- below is the tag for sliding text  -->
+                <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">Create stunning images with as much or as little control as you like
+                    thank to a choice of Bais and Crative modes.</marquee>
+        </div>
+    </section>
+
+
+    <!-- about app section  -->
+    <section id="about-app" class="section-p1">
+        <h1>Download Our <a href="#">App</a></h1>
+        <div class="video">
+            <!-- video tag for playing video  -->
+             <!-- we want our video to run in loop automatically  -->
+            <video autoplay muted loop src="img/about/1.mp4"></video>
+        </div>
+
+    </section>
+
+
+    <!-- feature section  -->
+    <section id="feature" class="section-p1" >
+        <div class="fe-box">
+            <img src="./img/features/f1.png" alt="" class="src">
+            <h6>Free Shipping</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="./img/features/f2.png" alt="" class="src">
+            <h6>Online Order</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="./img/features/f3.png" alt="" class="src">
+            <h6>Save Money</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="./img/features/f4.png" alt="" class="src">
+            <h6>Promotions</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="./img/features/f5.png" alt="" class="src">
+            <h6>Happy Sell</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="./img/features/f6.png" alt="" class="src">
+            <h6>24/7 Support</h6>
+        </div>
+    </section>
+
+
+
+    <!-- newletter section  -->
+    <section id="newsletter" class=" section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign up for newsletter</h4>
+            <p>Get email updates about new products <span>special offers.</span></p>
+        </div>
+
+
+        <div class="form">
+            <input type="text" placeholder="Enter mail here">
+            <button class="normal">Sign up</button>
+        </div>
+     </section>
+
+    <!-- footer section  -->
+    <footer class="section-p1">
+        <div class="col logo">
+            <img src="img/logo.png" alt="" class="src">
+            <h4>Contact</h4>
+            <p><strong>Address : </strong> 122 Baker Street , London</p>
+            <p><strong>Phone : </strong> +01 12371872316</p>
+            <p><strong>Hours: </strong> 10:00 - 06:00
+            </p>
+            <!-- social media links -->
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <!-- adding social media icons -->
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- about us footer section  -->
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in </a>
+            <a href="#">View Cart</a>
+            <a href="#">My wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <!-- payment section  -->
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <!-- copyright section  -->
+        <div class="copyright">
+            <p>@ 2024 Navneet Bhati ECommerce Website</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
