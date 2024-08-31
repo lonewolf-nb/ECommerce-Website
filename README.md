@@ -5,11 +5,11 @@
      user friendly interface 
  
  **Main feature pages created : **
-     MainPage
-     about
-     blog
-     cart
-     contact
-     shop
+     -MainPage
+     -about
+     -blog
+     -cart
+     -contact
+     -shop
  
 please see the live site at : 
